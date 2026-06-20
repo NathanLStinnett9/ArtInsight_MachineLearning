@@ -40,7 +40,7 @@ Both models performed close to their naive baselines after tuning. This is itsel
 
 - Listing attributes (style, subject, medium, size) are **not reliable predictors** of authenticity or price in this dataset
 - The dataset captures **asking prices**, not verified sale/transaction prices
-- Scraping hammer price and sold data either cost money for monthly subscription or was unsuccessful code to analyze page source code for needed info.
+- Scraping hammer price and sold data either cost money for monthly subscription or was unsuccessful code to analyze page source code for needed info
 - Only **11 distinct painters** across 2,500 rows limits artist-level signal
 
 **Recommendation:** Richer data — artist sales history, real transaction outcomes, image-based scoring — is needed before a production model is viable.
